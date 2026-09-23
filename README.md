@@ -41,6 +41,8 @@ The purpose of BIBKA Beauty Salon is to help clients learn about beauty services
 
 ## Deployment
 
-GitHub Repository: will be added
+GitHub Repository:
+https://github.com/Yelubay-B/bibka-beauty-salonn
 
-Deployed Website: will be added
+Deployed Website:
+https://yelubay-b.github.io/bibka-beauty-salonn/
