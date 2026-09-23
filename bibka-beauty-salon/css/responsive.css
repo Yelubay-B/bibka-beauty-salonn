@@ -1,0 +1,181 @@
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 450px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .benefits {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* PHONE */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        min-height: 400px;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .popular-services,
+    .why-us {
+        padding: 50px 5%;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-services h2,
+    .why-us h2 {
+        font-size: 28px;
+    }
+}
+/* SERVICES RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-intro h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-intro {
+        padding: 50px 20px;
+    }
+
+    .services-intro h1 {
+        font-size: 32px;
+    }
+
+    .services-section {
+        padding: 50px 5%;
+    }
+
+    .service-info h2 {
+        font-size: 28px;
+    }
+}
+/* TEAM RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-intro h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-intro {
+        padding: 50px 20px;
+    }
+
+    .team-intro h1 {
+        font-size: 32px;
+    }
+
+    .team-section,
+    .team-values {
+        padding: 50px 5%;
+    }
+
+    .values-list {
+        flex-direction: column;
+    }
+
+    .team-values h2 {
+        font-size: 28px;
+    }
+}
+/* BOOKING RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .booking-section {
+        grid-template-columns: 1fr;
+    }
+
+    .booking-intro h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .booking-intro {
+        padding: 50px 20px;
+    }
+
+    .booking-intro h1 {
+        font-size: 32px;
+    }
+
+    .booking-section {
+        padding: 50px 5%;
+        gap: 25px;
+    }
+
+    .booking-info,
+    .booking-form {
+        padding: 25px;
+    }
+
+    .booking-note h2 {
+        font-size: 28px;
+    }
+}

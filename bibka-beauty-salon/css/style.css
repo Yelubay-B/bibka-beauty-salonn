@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf8;
+    color: #3d3030;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background-color: #ffffff;
+    padding: 20px 8%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a86f6f;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #3d3030;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    color: #a86f6f;
+}
+
+.nav-links .active {
+    color: #a86f6f;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f3dfdc;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-small {
+    color: #a86f6f;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin: 10px 0 20px;
+}
+
+.hero-content > p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #a86f6f;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #815252;
+}
+
+/* POPULAR SERVICES */
+
+.popular-services {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.popular-services h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 220px;
+    max-width: 350px;
+}
+
+.service-card h3 {
+    color: #a86f6f;
+    margin-bottom: 10px;
+}
+
+/* WHY US */
+
+.why-us {
+    background-color: #f8eeee;
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.benefits div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.benefits h3 {
+    color: #a86f6f;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #3d3030;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+/* SERVICES PAGE */
+
+.services-intro {
+    background-color: #f3dfdc;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.services-intro h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.services-intro p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.services-section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.full-service-card {
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    border: 1px solid #f0dddd;
+}
+
+.full-service-card:hover {
+    transform: translateY(-5px);
+}
+
+.full-service-card h3 {
+    color: #a86f6f;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.full-service-card p {
+    margin-bottom: 15px;
+}
+
+.full-service-card span {
+    color: #a86f6f;
+    font-weight: bold;
+}
+
+.service-info {
+    background-color: #f8eeee;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.service-info h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.service-info p {
+    margin-bottom: 25px;
+}
+/* TEAM PAGE */
+
+.team-intro {
+    background-color: #f3dfdc;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.team-intro h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.team-intro p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.team-section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.team-card {
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    border: 1px solid #f0dddd;
+}
+
+.team-photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #f3dfdc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #a86f6f;
+}
+
+.team-card h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.job {
+    color: #a86f6f;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* TEAM VALUES */
+
+.team-values {
+    background-color: #f8eeee;
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.team-values h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.values-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.values-list article {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 220px;
+}
+
+.values-list h3 {
+    color: #a86f6f;
+    margin-bottom: 10px;
+}
+/* BOOKING PAGE */
+
+.booking-intro {
+    background-color: #f3dfdc;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.booking-intro h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.booking-intro p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.booking-section {
+    padding: 70px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.booking-info {
+    background-color: #f8eeee;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.booking-info h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.booking-info h3 {
+    color: #a86f6f;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* FORM */
+
+.booking-form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #f0dddd;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking-form h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.booking-form label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8c5c5;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    outline: 2px solid #a86f6f;
+}
+
+.booking-btn {
+    margin-top: 15px;
+    padding: 13px 25px;
+    background-color: #a86f6f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.booking-btn:hover,
+.booking-btn:focus {
+    background-color: #815252;
+}
+
+.booking-note {
+    background-color: #f8eeee;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.booking-note h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.hero {
+    gap: 40px;
+}
+
+.hero-image {
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+}

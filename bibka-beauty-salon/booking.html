@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBKA Beauty Salon | Booking</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">BIBKA</a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="booking.html" class="active">Booking</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="booking-intro">
+        <h1>Book Your Appointment</h1>
+        <p>
+            Choose your service and preferred date.
+            We will be happy to welcome you at BIBKA.
+        </p>
+    </section>
+
+    <section class="booking-section">
+
+        <div class="booking-info">
+            <h2>Visit BIBKA</h2>
+
+            <h3>Opening Hours</h3>
+            <p>Monday – Friday: 09:00 – 20:00</p>
+            <p>Saturday – Sunday: 10:00 – 18:00</p>
+
+            <h3>Contact</h3>
+            <p>Phone: +7 775 113 06 75</p>
+            <p>Email: beautybibka@gmail.com</p>
+
+            <h3>Location</h3>
+            <p>Astana, Kazakhstan</p>
+        </div>
+
+        <form class="booking-form">
+
+            <h2>Appointment Form</h2>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Choose Service</label>
+            <select id="service" name="service">
+                <option>Hair Styling</option>
+                <option>Nail Care</option>
+                <option>Makeup</option>
+                <option>Brows</option>
+                <option>Lashes</option>
+                <option>Skincare</option>
+            </select>
+
+            <label for="date">Choose Date</label>
+            <input type="date" id="date" name="date">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" class="booking-btn">
+                Book Appointment
+            </button>
+
+        </form>
+
+    </section>
+
+    <section class="booking-note">
+        <h2>Your Beauty, Your Time</h2>
+        <p>Book your appointment and enjoy your BIBKA experience.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 BIBKA Beauty Salon. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
